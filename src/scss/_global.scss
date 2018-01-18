@@ -1,0 +1,27 @@
+/*******************************************************************************
+ *
+ * Global
+ *
+ ******************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700,900);
+
+html {
+	height: 100%;
+
+	font-size: 18px;
+	font-weight: $normal;
+}
+
+//body {
+//	height: 100%;
+//}
+
+a {
+	text-decoration: none;
+}
+
+.active {
+	font-weight: $black;
+}
+

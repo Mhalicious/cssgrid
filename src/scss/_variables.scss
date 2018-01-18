@@ -1,0 +1,43 @@
+/*******************************************************************************
+ *
+ * Variables
+ *
+ ******************************************************************************/
+
+
+// Typography
+//--------------------------------------------------
+$fontFamilySansSerif:   'Roboto', sans-serif;
+$fontFamilySerif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$fontFamilyMonospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$fontFamilyBase:        $fontFamilySansSerif;
+
+$fontSizeBase:          1rem;
+$fontSizeLarge:         $fontSizeBase * 1.25; // ~23px
+$fontSizeSmall:         $fontSizeBase * 0.9; // ~16px
+
+$fontSizeH1:            $fontSizeBase * 2.22; // ~40px
+$fontSizeH2:            $fontSizeBase * 1.67; // ~30px
+$fontSizeH3:            $fontSizeLarge;
+$fontSizeH4:            $fontSizeSmall;
+$fontSizeH5:            $fontSizeSmall;
+$fontSizeH6:            $fontSizeSmall;
+
+$line-height-base:        1.428571429; // 20/14
+
+// Font Weights
+//--------------------------------------------------
+/*$light:     400                                         !default;*/
+$normal:    300                                         !default;
+$bold:      700                                         !default;
+$black:     900                                         !default;
+
+// Margin
+//--------------------------------------------------
+$marginMenu:            15%;
+
+// Color
+//--------------------------------------------------
+$grey: rgb(151,151,151);
+

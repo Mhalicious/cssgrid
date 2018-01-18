@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".menu").on("click",function(){$(".menu__dropdown").slideToggle("fast")})});
