@@ -1,33 +1,13 @@
 /*******************************************************************************
  *
- * Best of
+ * Best Section
  *
  ******************************************************************************/
 
 .best {
-    padding-left: 50px;
-    padding-right: 50px;
-
-    height: 100%;
-    left: 0;
-
-    font-family: $fontFamilySansSerif;
-
-    &_title{
-        padding: 20px 0 50px 0;
-
-        font-size: $fontSizeH1;
-        font-family: $fontFamilySansSerif;
-        text-transform: uppercase;
-        font-weight: 100;
-        text-align: center;
-
-        color: black;
-    }
-
-    @media screen and (max-width: 1024px) {
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
+    //width: 80%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px
 }
